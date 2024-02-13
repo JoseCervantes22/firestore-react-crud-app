@@ -8,6 +8,7 @@ import Edit from './Edit';
 
 import { employeesData } from '../../data';
 
+
 const Dashboard = ({ setIsAuthenticated }) => {
   const [employees, setEmployees] = useState(employeesData);
   const [selectedEmployee, setSelectedEmployee] = useState(null);
